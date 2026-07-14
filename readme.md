@@ -5,12 +5,12 @@ whether a transformation is valid. Transpose flips rows and columns.
 
 ## Learning Plan
 
-| Week | Topics |
-| --- | --- |
-| 1 | Vectors, dot product, magnitude/length, cosine similarity |
-| 2 | Matrices, matrix multiplication, shapes, transpose |
-| 3 | NumPy implementation + small neural network math |
-| 4 | Embeddings, vector search, recommendation systems |
+| Week | Topics                                                    |
+| ---- | --------------------------------------------------------- |
+| 1    | Vectors, dot product, magnitude/length, cosine similarity |
+| 2    | Matrices, matrix multiplication, shapes, transpose        |
+| 3    | NumPy implementation + small neural network math          |
+| 4    | Embeddings, vector search, recommendation systems         |
 
 Roadmap: **probability → calculus basics → machine learning models → neural networks**
 
@@ -76,11 +76,11 @@ cos(a, b) = (a · b) / (||a|| * ||b||)
 
 ### Dot Product vs. Cosine Similarity
 
-| Concept | Measures | Sensitive to Length |
-| --- | --- | --- |
-| Dot product | alignment + magnitude | Yes |
-| Cosine similarity | direction similarity | No |
-| Distance | how far apart points are | Yes |
+| Concept           | Measures                 | Sensitive to Length |
+| ----------------- | ------------------------ | ------------------- |
+| Dot product       | alignment + magnitude    | Yes                 |
+| Cosine similarity | direction similarity     | No                  |
+| Distance          | how far apart points are | Yes                 |
 
 **Summary**
 
@@ -110,7 +110,7 @@ cos(a, b) = (a · b) / (||a|| * ||b||)
 
 ```
 | 2 0 |   | 1 |   | (2*1) + (0*4) |   | 2  |
-| 2 3 | × | 4 | = | (2*0) + (3*4) | = | 12 |
+| 2 3 | × | 4 | = | (2*1) + (3*4) | = | 14 |
 ```
 
 ### Matrix × Matrix
@@ -140,19 +140,19 @@ cos(a, b) = (a · b) / (||a|| * ||b||)
 
 ### Vector Search vs. Keyword Search
 
-| Search Type | Looks At | Good For |
-| --- | --- | --- |
-| Keyword search | exact words | precise terms, filters, names |
-| Vector search | meaning | semantic search, RAG, recommendations |
-| Hybrid search | both | best production systems |
+| Search Type    | Looks At    | Good For                              |
+| -------------- | ----------- | ------------------------------------- |
+| Keyword search | exact words | precise terms, filters, names         |
+| Vector search  | meaning     | semantic search, RAG, recommendations |
+| Hybrid search  | both        | best production systems               |
 
 - **Vector search** — given one vector, find the closest vectors in a database
 - **Keyword search** — looks for matching words
 
 ### Recommendation Systems
 
-A recommendation system ranks items for a user — it answers *"what should
-this user see next?"*
+A recommendation system ranks items for a user — it answers _"what should
+this user see next?"_
 
 - **Content-based filtering** — recommends items similar to what the user likes
 - **Collaborative filtering** — recommends based on the behavior of similar users
